@@ -1,19 +1,29 @@
 # Gradle
 .gradle/
-build/
+
+# Gradle wrapper files
 gradle-wrapper.jar
 gradle-wrapper.properties
 
-# IDE files
+# Build
+build/
+
+# IDE files (for IntelliJ IDEA or other JetBrains IDEs)
 .idea/
 
 # Java files
 *.class
-*.log
 
-# OS-specific files
+# Operating system files (e.g., macOS, Windows)
 .DS_Store
 Thumbs.db
 
-# Other
+# Other project files
 *.iml
+
+# Exclude log files
+*.log
+
+# Gradle wrapper scripts (if you don't need them in the repo)
+gradlew
+gradlew.bat
